@@ -7,7 +7,7 @@ node {
     'npm install'
   }
 
-  stage 'Checkout' {
+  stage 'Constuir' {
     'npm run build'
   }
 }
