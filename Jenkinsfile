@@ -1,13 +1,13 @@
 node {
-  stage 'Checkout' {
+  stage('Checkout') {
     checkout scm
   }
 
-  stage 'Instalar dependencias de node' {
+  stage('Instalar dependencias de node') {
     'npm install'
   }
 
-  stage 'Constuir' {
+  stage('Constuir') {
     'npm run build'
   }
 }
