@@ -12,6 +12,6 @@ node {
   }
 
   stage('Ejecutar script Python') {
-    'C:\\Users\\Lyrus\\AppData\\Local\\Programs\\Python\\Python312\\python.exe C:\\Users\\Lyrus\\Documents\\Prog\\mail.py'
+    bat 'C:\\Users\\Lyrus\\AppData\\Local\\Programs\\Python\\Python312\\python.exe C:\\Users\\Lyrus\\Documents\\Prog\\mail.py'
   }
 }
