@@ -12,6 +12,6 @@ node {
   }
 
   stage('Ejecutar script Python') {
-    sh 'python C:\\Users\\Lyrus\\Documents\\Prog\\mail.py'
+    'python C:\\Users\\Lyrus\\Documents\\Prog\\mail.py'
   }
 }
